@@ -1,4 +1,5 @@
 Summary:	Link level connectivity testing tool
+Summary(pl):	Narzêdzie do sprawdzania ³±czno¶ci w warstwie po³±czenia
 Name:		linkloop
 Version:	0.0.1
 Release:	1
@@ -7,6 +8,8 @@ Group:		Networking/Utilities
 Source0:	http://users.actcom.co.il/~oron/oron/docs/%{name}-%{version}.tar.gz
 # Source0-md5:	8dfb7d0ad598d5aa94bab37fe5634cf2
 URL:		http://users.actcom.co.il/~oron/oron/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -16,6 +19,14 @@ like the HP-UX linkloop utility. It was tested between Linux and HP-UX
 (both ways). There is also a "server-side" utility for Linux
 (linkloop_reply). There are plans to move the "reply" support into the
 kernel.
+
+%description -l pl
+Ten program jest podobny do pinga, ale sprawdza ³±czno¶æ w warstwie
+po³±czenia (warstwie 2) zamiast na poziomie sieci (warstwie 3). Dzia³a
+podobnie do narzêdzia linkloop z HP-UX-a. By³o testowane miêdzy
+Linuksem i HP-UX-em (w obie strony). Jest tak¿e narzêdzie
+"server-side" dla Linuksa (linkloop_reply). S± plany przeniesienia
+obs³ugi odpowiadania do j±dra.
 
 %prep
 %setup -q
