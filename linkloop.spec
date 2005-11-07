@@ -1,13 +1,13 @@
 Summary:	Link level connectivity testing tool
 Summary(pl):	Narzêdzie do sprawdzania ³±czno¶ci w warstwie po³±czenia
 Name:		linkloop
-Version:	0.0.1
+Version:	0.0.2
 Release:	1
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://users.actcom.co.il/~oron/oron/docs/%{name}-%{version}.tar.gz
-# Source0-md5:	8dfb7d0ad598d5aa94bab37fe5634cf2
-URL:		http://users.actcom.co.il/~oron/oron/
+# Source0-md5:	00ea5fecd0fb73c08626232ae322ac1a
+URL:		http://users.actcom.co.il/~oron/oron/oron_main.html
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
