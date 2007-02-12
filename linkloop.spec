@@ -1,5 +1,5 @@
 Summary:	Link level connectivity testing tool
-Summary(pl):	Narzêdzie do sprawdzania ³±czno¶ci w warstwie po³±czenia
+Summary(pl.UTF-8):   NarzÄ™dzie do sprawdzania Å‚Ä…cznoÅ›ci w warstwie poÅ‚Ä…czenia
 Name:		linkloop
 Version:	0.0.2
 Release:	1
@@ -20,13 +20,13 @@ like the HP-UX linkloop utility. It was tested between Linux and HP-UX
 (linkloop_reply). There are plans to move the "reply" support into the
 kernel.
 
-%description -l pl
-Ten program jest podobny do pinga, ale sprawdza ³±czno¶æ w warstwie
-po³±czenia (warstwie 2) zamiast na poziomie sieci (warstwie 3). Dzia³a
-podobnie do narzêdzia linkloop z HP-UX-a. By³o testowane miêdzy
-Linuksem i HP-UX-em (w obie strony). Jest tak¿e narzêdzie
-"server-side" dla Linuksa (linkloop_reply). S± plany przeniesienia
-obs³ugi odpowiadania do j±dra.
+%description -l pl.UTF-8
+Ten program jest podobny do pinga, ale sprawdza Å‚Ä…cznoÅ›Ä‡ w warstwie
+poÅ‚Ä…czenia (warstwie 2) zamiast na poziomie sieci (warstwie 3). DziaÅ‚a
+podobnie do narzÄ™dzia linkloop z HP-UX-a. ByÅ‚o testowane miÄ™dzy
+Linuksem i HP-UX-em (w obie strony). Jest takÅ¼e narzÄ™dzie
+"server-side" dla Linuksa (linkloop_reply). SÄ… plany przeniesienia
+obsÅ‚ugi odpowiadania do jÄ…dra.
 
 %prep
 %setup -q
