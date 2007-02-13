@@ -1,5 +1,5 @@
 Summary:	Link level connectivity testing tool
-Summary(pl.UTF-8):   Narzędzie do sprawdzania łączności w warstwie połączenia
+Summary(pl.UTF-8):	Narzędzie do sprawdzania łączności w warstwie połączenia
 Name:		linkloop
 Version:	0.0.2
 Release:	1
